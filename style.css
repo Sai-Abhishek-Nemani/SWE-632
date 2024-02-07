@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+padding:5px 10vw;
+max-width:80vw;
+margin:9px 0px;
+height:66px;
+
+}
+nav{
+    padding-top: 14px;
+}
+.flex{
+    display:flex;
+    justify-content: space-between;
+    
+
+}
+header{
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    margin-top:13px;
+    position:sticky;
+    top:0;
+    background-color: white;
+}
+nav ul li{
+    list-style: none;
+    padding:8px 16px;
+    text-transform: uppercase;
+    font-weight: 800;
+    }
+.items-center{
+    align-items: center;
+
+}
+.justify-center{
+    justify-content: center;
+
+}
+.space-between{
+    justify-content: space-between;
+    
+}
+.mx-2{
+    margin: 0 12px;
+}
+.section-1{
+    background-color:#f9f3f3;
+    
+    
+}
+.searchlogo{
+    width:30vw;
+    padding:4px 15px;
+    background-color: #e1e9f3;
+    border-radius: 14px;
+}
+.right{
+    padding-left: 30px;
+    margin-left: 12px;;
+}
+.home-image{
+    width: 80vw;
+    
+    display: flex;
+    justify-content: center;
+}
+.item-img{
+    flex-wrap: wrap;
+    margin:3px;
+    
+}
+.section-2{
+width:100vw;
+flex-wrap:wrap;
+}
+.options{
+    display:flex;
+    margin:2px;
+}
+.my-2{
+    text-align: center;
+    box-shadow: box-shadow( rgba(0, 0, 0, 0.24) 0px 3px 8px);
+}
+@media (max-width:1050px)
+{ nav ul li{
+    list-style: none;
+    padding:0 4px;
+    font-size:10px;
+    }
+    header{
+        background-color: rgb(249, 109, 109);
+        height:122px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+        flex-direction:column;
+    }
+    .options{
+        flex-direction: column;
+    }
+   
+  
+    
+    
+    
+}
+.section-2{ 
+    img:hover{ 
+        transform:rotate(30deg);
+        transform:scale(1.5);
+        transition-property: transform;
+        transition-duration: 2s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0.2s;
+    }
+}
+#comm{
+    cursor: pointer;
+    border:2px solid grey;
+    position:fixed;
+    bottom:5px;
+    right:4px;
+    background-color: rgb(240, 127, 127);
+    width:60px;
+    height:50px;
+    border-radius: 50%;
+    
+}
+.cartadd {
+ display: flex;
+ gap:200px;
+ position:relative;
+ left:13px;
+
+}
+.section-1 ul{
+    display:flex;
+    overflow-y: hidden;
+
+}
+.section-1 img{
+    max-width: 100%;
+    height:43vh;
+    mask-image: linear-gradient(to bottom,#000000 50%,transparent 100%);
+}
+.section-1 a{
+    position:absolute;
+    top:30%;
+    z-index:3;
+    padding:5vh 1vw;
+    background-color: #ffffff4f;
+    color:#0000007b;
+    text-decoration: none;
+    font-weight:600;
+    font-size:18px;
+
+    cursor:pointer;
+}
+.control-next{
+    right:0;
+
+
+}
